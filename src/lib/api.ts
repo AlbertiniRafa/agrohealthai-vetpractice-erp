@@ -1,6 +1,4 @@
-// Uses Next.js rewrite proxy to avoid CORS — requests go to /api/* locally
-// and get proxied to api.agrohealthai.com server-side
-const API_BASE = "";
+const API_BASE = "https://api.agrohealthai.com";
 
 export async function apiCall(path: string, options: RequestInit = {}) {
   const token = localStorage.getItem("vetpractice_token");
