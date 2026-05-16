@@ -93,9 +93,9 @@ export default function Sidebar() {
 
       {/* Footer */}
       <div className="px-4 py-3 border-t border-slate-700">
+        <img src="/agroinsights-logo.png" alt="Agroinsights Technologies" className="h-6 w-auto opacity-70 mb-2" />
         <p className="text-[9px] text-slate-500">Powered by AgroHealthAI</p>
         <p className="text-[9px] text-slate-500">39,917 evidence sources</p>
-        <p className="text-[9px] text-slate-600 mt-0.5">Agroinsights Technologies Ltd</p>
       </div>
     </aside>
   );

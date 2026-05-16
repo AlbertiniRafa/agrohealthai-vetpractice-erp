@@ -57,7 +57,10 @@ export default function LoginPage() {
           ))}
         </div>
 
-        <p className="text-xs text-slate-600 mt-16">Agroinsights Technologies Ltd | Stowmarket, Suffolk, UK</p>
+        <div className="mt-16 flex items-center gap-3">
+          <img src="/agroinsights-logo.png" alt="Agroinsights Technologies" className="h-8 w-auto opacity-60" />
+          <p className="text-xs text-slate-500">Stowmarket, Suffolk, UK</p>
+        </div>
       </div>
 
       {/* Right — Login Form */}
