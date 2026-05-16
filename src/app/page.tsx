@@ -57,9 +57,9 @@ export default function LoginPage() {
           ))}
         </div>
 
-        <div className="mt-16 flex items-center gap-3">
-          <img src="/agroinsights-logo.png" alt="Agroinsights Technologies" className="h-8 w-auto opacity-60" />
-          <p className="text-xs text-slate-500">Stowmarket, Suffolk, UK</p>
+        <div className="mt-16">
+          <img src="/agroinsights-logo-grey.png" alt="Agroinsights Technologies" className="h-10 w-auto opacity-80" />
+          <p className="text-xs text-slate-500 mt-2">Stowmarket, Suffolk, UK</p>
         </div>
       </div>
 
