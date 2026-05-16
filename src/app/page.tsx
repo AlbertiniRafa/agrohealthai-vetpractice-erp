@@ -30,9 +30,9 @@ export default function LoginPage() {
       {/* Left — Branding */}
       <div className="hidden lg:flex lg:w-1/2 bg-slate-900 text-white flex-col justify-center px-16">
         <h1 className="text-4xl font-bold">
-          <span className="text-emerald-400">AgroHealth</span>AI
+          <span className="text-emerald-400">Cura</span>Vet
         </h1>
-        <p className="text-lg text-slate-300 mt-2">VetPractice ERP</p>
+        <p className="text-lg text-slate-300 mt-2">Veterinary Practice ERP</p>
         <p className="text-slate-400 mt-6 max-w-md leading-relaxed">
           The only veterinary practice management system with AI-powered clinical diagnostics,
           antimicrobial stewardship, and 39,917 peer-reviewed evidence sources.
@@ -108,7 +108,7 @@ export default function LoginPage() {
           </form>
 
           <p className="mt-6 text-xs text-center text-slate-400">
-            Powered by AgroHealthAI v2.0.0
+            Powered by CuraVet + AgroHealthAI
           </p>
         </div>
       </div>

@@ -57,10 +57,10 @@ export default function Sidebar() {
       {/* Logo */}
       <div className="px-5 py-4 border-b border-slate-700">
         <h1 className="text-base font-bold">
-          <span className="text-emerald-400">AgroHealth</span>
-          <span className="text-white">AI</span>
+          <span className="text-emerald-400">Cura</span>
+          <span className="text-white">Vet</span>
         </h1>
-        <p className="text-[9px] text-slate-400 tracking-widest uppercase mt-0.5">VetPractice ERP</p>
+        <p className="text-[9px] text-slate-400 tracking-widest uppercase mt-0.5">Veterinary Practice ERP</p>
       </div>
 
       {/* Navigation */}
@@ -93,8 +93,9 @@ export default function Sidebar() {
 
       {/* Footer */}
       <div className="px-4 py-3 border-t border-slate-700">
-        <p className="text-[9px] text-slate-500">Powered by AgroHealthAI v2.0.0</p>
+        <p className="text-[9px] text-slate-500">Powered by AgroHealthAI</p>
         <p className="text-[9px] text-slate-500">39,917 evidence sources</p>
+        <p className="text-[9px] text-slate-600 mt-0.5">Agroinsights Technologies Ltd</p>
       </div>
     </aside>
   );

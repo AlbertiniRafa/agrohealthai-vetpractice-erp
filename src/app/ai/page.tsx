@@ -45,7 +45,7 @@ export default function AIDiagnosticsPage() {
     <div className="flex h-full">
       <Sidebar />
       <div className="ml-56 flex-1 flex flex-col">
-        <TopBar title="AI Clinical Diagnostics" subtitle="Powered by AgroHealthAI — 39,917 evidence sources" />
+        <TopBar title="AI Clinical Diagnostics" subtitle="Powered by CuraVet + AgroHealthAI — 39,917 evidence sources" />
         <main className="flex-1 px-8 py-6 overflow-y-auto">
           <div className="max-w-5xl mx-auto">
             {/* Input Form */}

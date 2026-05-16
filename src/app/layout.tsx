@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: "AgroHealthAI VetPractice — Veterinary Practice Management",
-  description: "The only veterinary ERP with AI-powered clinical diagnostics, antimicrobial stewardship, and 39,917 peer-reviewed evidence sources.",
+  title: "CuraVet — Veterinary Practice Management with AI",
+  description: "The only veterinary ERP with AI-powered clinical diagnostics, antimicrobial stewardship, and 39,917 peer-reviewed evidence sources. By Agroinsights Technologies Ltd.",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
